@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 <body>
     <span>total click: 0</span>
@@ -12,6 +13,7 @@
         let counter = 0;
         const button = document.querySelector("btn");
         const span = document.querySelector("span");
+
         function handleClick() {
             counter = counter + 1;
             span.innerText = `total click: ${counter}`;
